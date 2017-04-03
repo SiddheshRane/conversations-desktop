@@ -1,0 +1,81 @@
+/* 
+    Created on : 29 Mar, 2017, 9:25:47 AM
+    Author     : Siddhesh Rane 
+*/
+.root {
+    -cell-bg: #696969aa;
+    -cell-fg: ladder(-cell-bg, #ffffffaa 49%, #000000aa 50%);
+    -cell-text-fg: ladder(-cell-bg, white 40%, black 60%);
+    -cell-text-bg: ladder(-cell-bg, #ffffff44 49%, #00000022 50%);
+}
+
+.chat-list {
+    -fx-background-color: linear-gradient(to bottom right, springgreen, yellowgreen, orchid);
+    /*-fx-background-color: linear-gradient(to bottom, #14ec89, #22a368);*/
+}
+
+.chat-list .list-cell{
+    -fx-background-color: transparent;
+}
+.chat-list .list-cell:hover {
+    -fx-background-color: rgba(0,0,0,0.15);
+}
+.chat-list .list-cell:selected {
+    -fx-background-color: rgba(0,0,0,0.35);
+}
+.chat-list .list-cell:empty {
+    -fx-background-color: transparent;
+}
+#filler-cell {
+    -fx-min-height: 50px;
+    -fx-background-color: null;
+}
+
+.cell-graphic {
+    -fx-spacing: 5px;
+}
+.cell-graphic VBox {
+    -fx-background-color: -cell-bg;
+    -fx-background-radius: 9px;
+}
+.cell-graphic VBox HBox {
+    -fx-spacing: 5px;
+}
+.cell-graphic .text-flow {
+    -fx-background-color: -cell-text-bg;
+    -fx-background-radius: 0 0 9 9;
+}
+.cell-graphic .username {
+    -fx-font:13px 'DejaVu Sans Condensed';
+    -fx-font-weight:bold;
+    -fx-text-fill: -cell-fg;
+}
+.cell-graphic .time {
+    -fx-font-face:  'Ubuntu';
+    -fx-font-size: 11px;
+    -fx-text-fill: -cell-fg;
+}
+.cell-graphic .message {
+    -fx-font: 15px 'Noto Sans';
+    -fx-fill: -cell-text-fg;
+}
+
+.send-box {
+    -fx-background-color: -cell-bg;
+    -fx-font: 14px 'Noto Sans';
+}
+.send-box > * {
+    -fx-text-fill: -cell-text-fg;
+}
+.send-box .jfx-text-field{
+    -jfx-focus-color: #21e31d;
+}
+
+.chats {
+        -fx-background-color: #22a368;
+}
+    .chats  * {
+    -fx-text-fill: white;
+    -fx-font-smoothing: gray;
+}
+

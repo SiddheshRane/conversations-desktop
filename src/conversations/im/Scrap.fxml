@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@main.css" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab text="Untitled Tab 1">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <VBox layoutX="23.0" layoutY="14.0" prefHeight="114.0" prefWidth="199.0" styleClass="message-vbox">
+                     <children>
+                        <Label styleClass="sender" text="Siddhesh" />
+                        <Label styleClass="content" text="Hi I just wanted to know the status on todays meeting" textOverrun="LEADING_WORD_ELLIPSIS" wrapText="true" />
+                     </children>
+                  </VBox>
+                  <VBox layoutX="258.0" layoutY="7.0" prefHeight="129.0" prefWidth="236.0" style="-fx-background-color: palegreen;">
+                     <children>
+                        <Label styleClass="sender" text="Siddhesh" textFill="#1b9423" />
+                        <Label styleClass="content" text="Hi I just wanted to know the status on todays meeting" wrapText="true" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Hi I just wanted to know the status on todays meeting" wrappingWidth="300.0" />
+                     </children>
+                  </VBox>
+                  <TextFlow layoutX="377.0" layoutY="238.0" maxWidth="100.0" prefHeight="72.0" prefWidth="183.0" style="-fx-background-color: yellow;">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="This is is a really long text" wrappingWidth="107.26318359375" />
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </TextFlow>
+                  <Label contentDisplay="GRAPHIC_ONLY" layoutX="14.0" layoutY="214.0" styleClass="chat-cell" textAlignment="RIGHT" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="334.0" AnchorPane.topAnchor="214.0">
+                     <graphic>
+                        <VBox prefHeight="100.0" prefWidth="244.0" styleClass="vbox">
+                           <children>
+                              <AnchorPane>
+                                 <children>
+                                    <Label maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="69.0" styleClass="sender" text="Siddhesh" AnchorPane.leftAnchor="0.0" />
+                                    <Label alignment="CENTER_RIGHT" minHeight="-Infinity" minWidth="-Infinity" text="11:55pm" AnchorPane.rightAnchor="0.0" />
+                                 </children>
+                              </AnchorPane>
+                              <StackPane styleClass="flow-container">
+                                 <children>
+                                    <TextFlow prefHeight="200.0" prefWidth="200.0" styleClass="content">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="This is a message from someone" />
+                                       </children>
+                                    </TextFlow>
+                                 </children>
+                              </StackPane>
+                           </children>
+                        </VBox>
+                     </graphic>
+                  </Label>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Untitled Tab 2">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ListView layoutX="129.0" layoutY="27.0" maxWidth="1.7976931348623157E308" prefHeight="261.0" prefWidth="169.0" styleClass="chat-list" />
+                  <StackPane layoutX="341.0" layoutY="151.0" prefHeight="150.0" prefWidth="200.0" styleClass="chat-list">
+                     <children>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="5.0" text="Text" StackPane.alignment="BOTTOM_LEFT">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="43.0" />
+                           </font>
+                           <effect>
+                              <Blend mode="DIFFERENCE" />
+                           </effect>
+                        </Text>
+                        <Text blendMode="DIFFERENCE" fill="#ffffff00" stroke="#07c0db" strokeType="OUTSIDE" strokeWidth="3.0" text="txted that !" StackPane.alignment="TOP_RIGHT">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="43.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="306.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: linear-gradient(to right, black 30%, whitesmoke 70%);">
+                     <children>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="5.0" text="Text" StackPane.alignment="BOTTOM_LEFT">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="43.0" />
+                           </font>
+                           <effect>
+                              <Blend mode="DIFFERENCE" />
+                           </effect>
+                        </Text>
+                        <Text blendMode="DIFFERENCE" fill="#ffffff00" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="3.0" text="txted that !" StackPane.alignment="TOP_RIGHT">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="43.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <Button layoutX="31.0" layoutY="309.0" mnemonicParsing="false" style="-fx-base: ;" text="Button" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>

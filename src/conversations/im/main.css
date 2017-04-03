@@ -1,0 +1,12 @@
+/* 
+    Created on : 16 Mar, 2017, 7:34:12 PM
+    Author     : Siddhesh Rane 
+*/
+@import "chat/ChatCell.css";
+@import "banner/banner.css";
+
+* {
+    -theme-color:#1deb36;
+    -theme-darker: derive(-theme-color, -50%);
+    -theme-lighter: derive(-theme-color,50%);
+}

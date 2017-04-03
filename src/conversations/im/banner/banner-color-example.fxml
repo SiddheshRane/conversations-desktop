@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<FlowPane alignment="TOP_CENTER" hgap="6.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="686.0" prefWidth="1094.0" stylesheets="@banner.css" vgap="6.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="79.0" prefWidth="385.0" spacing="10.0" styleClass="banner">
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+         <children>
+            <VBox alignment="CENTER_LEFT">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="heading" text="Conversations" />
+               </children>
+            </VBox>
+            <StackPane alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="drawerArrow141" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="drawer-arrow" text="﹀" visible="false">
+                     <font>
+                        <Font name="Noto Sans" size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="69.0" fitWidth="69.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/profile-thumb.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <VBox alignment="CENTER" spacing="5.0">
+               <children>
+                  <Label minWidth="-Infinity" styleClass="username" text="siddheshrane" textFill="WHITE">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="3.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label graphicTextGap="6.0" minWidth="-Infinity" styleClass="online" text="online">
+                     <graphic>
+                        <Circle cache="true" cacheHint="QUALITY" radius="5.0" strokeType="INSIDE" strokeWidth="0.0">
+                           <fill>
+                              <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="#17f525" offset="0.007407407407407408" />
+                                    <Stop color="#149418" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Circle>
+                     </graphic>
+                     <font>
+                        <Font name="Liberation Sans" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <effect>
+            <DropShadow height="54.39" radius="18.3475" />
+         </effect>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" prefHeight="79.0" prefWidth="385.0" spacing="10.0" style="-banner-bg: #fff;" styleClass="banner">
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+         <children>
+            <VBox alignment="CENTER_LEFT">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="heading" text="Conversations" />
+               </children>
+            </VBox>
+            <StackPane alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="drawerArrow14" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="drawer-arrow" text="﹀" visible="false">
+                     <font>
+                        <Font name="Noto Sans" size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="69.0" fitWidth="69.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/profile-thumb.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <VBox alignment="CENTER" spacing="5.0">
+               <children>
+                  <Label minWidth="-Infinity" styleClass="username" text="siddheshrane" textFill="WHITE">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="3.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label graphicTextGap="6.0" minWidth="-Infinity" styleClass="online" text="online">
+                     <graphic>
+                        <Circle cache="true" cacheHint="QUALITY" radius="5.0" strokeType="INSIDE" strokeWidth="0.0">
+                           <fill>
+                              <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="#17f525" offset="0.007407407407407408" />
+                                    <Stop color="#149418" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Circle>
+                     </graphic>
+                     <font>
+                        <Font name="Liberation Sans" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <effect>
+            <DropShadow height="54.39" radius="18.3475" />
+         </effect>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="79.0" prefWidth="385.0" spacing="10.0" style="-banner-bg: mediumpurple;" styleClass="banner">
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+         <children>
+            <VBox alignment="CENTER_LEFT">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="heading" text="Conversations" />
+               </children>
+            </VBox>
+            <StackPane alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="drawerArrow" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="drawer-arrow" text="﹀" visible="false">
+                     <font>
+                        <Font name="Noto Sans" size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="69.0" fitWidth="69.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/profile-thumb.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <VBox alignment="CENTER" spacing="5.0">
+               <children>
+                  <Label minWidth="-Infinity" styleClass="username" text="siddheshrane" textFill="WHITE">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="3.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label graphicTextGap="6.0" minWidth="-Infinity" styleClass="online" text="online">
+                     <graphic>
+                        <Circle cache="true" cacheHint="QUALITY" radius="5.0" strokeType="INSIDE" strokeWidth="0.0">
+                           <fill>
+                              <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="#17f525" offset="0.007407407407407408" />
+                                    <Stop color="#149418" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Circle>
+                     </graphic>
+                     <font>
+                        <Font name="Liberation Sans" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <effect>
+            <DropShadow height="54.39" radius="18.3475" />
+         </effect>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="79.0" prefWidth="385.0" spacing="10.0" style="-banner-bg: #ddd;" styleClass="banner">
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+         <children>
+            <VBox alignment="CENTER_LEFT">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="heading" text="Conversations" />
+               </children>
+            </VBox>
+            <StackPane alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="drawerArrow1" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="drawer-arrow" text="﹀" visible="false">
+                     <font>
+                        <Font name="Noto Sans" size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="69.0" fitWidth="69.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/profile-thumb.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <VBox alignment="CENTER" spacing="5.0">
+               <children>
+                  <Label minWidth="-Infinity" styleClass="username" text="siddheshrane" textFill="WHITE">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="3.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label graphicTextGap="6.0" minWidth="-Infinity" styleClass="online" text="online">
+                     <graphic>
+                        <Circle cache="true" cacheHint="QUALITY" radius="5.0" strokeType="INSIDE" strokeWidth="0.0">
+                           <fill>
+                              <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="#17f525" offset="0.007407407407407408" />
+                                    <Stop color="#149418" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Circle>
+                     </graphic>
+                     <font>
+                        <Font name="Liberation Sans" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <effect>
+            <DropShadow height="54.39" radius="18.3475" />
+         </effect>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="79.0" prefWidth="385.0" spacing="10.0" style="-banner-bg: palevioletred;" styleClass="banner">
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+         <children>
+            <VBox alignment="CENTER_LEFT">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="heading" text="Conversations" />
+               </children>
+            </VBox>
+            <StackPane alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="drawerArrow2" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="drawer-arrow" text="﹀" visible="false">
+                     <font>
+                        <Font name="Noto Sans" size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="69.0" fitWidth="69.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/profile-thumb.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <VBox alignment="CENTER" spacing="5.0">
+               <children>
+                  <Label minWidth="-Infinity" styleClass="username" text="siddheshrane" textFill="WHITE">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="3.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label graphicTextGap="6.0" minWidth="-Infinity" styleClass="online" text="online">
+                     <graphic>
+                        <Circle cache="true" cacheHint="QUALITY" radius="5.0" strokeType="INSIDE" strokeWidth="0.0">
+                           <fill>
+                              <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="#17f525" offset="0.007407407407407408" />
+                                    <Stop color="#149418" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Circle>
+                     </graphic>
+                     <font>
+                        <Font name="Liberation Sans" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <effect>
+            <DropShadow height="54.39" radius="18.3475" />
+         </effect>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="79.0" prefWidth="385.0" spacing="10.0" style="-banner-bg: #aaa;" styleClass="banner">
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+         <children>
+            <VBox alignment="CENTER_LEFT">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="heading" text="Conversations" />
+               </children>
+            </VBox>
+            <StackPane alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="drawerArrow3" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="drawer-arrow" text="﹀" visible="false">
+                     <font>
+                        <Font name="Noto Sans" size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="69.0" fitWidth="69.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/profile-thumb.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <VBox alignment="CENTER" spacing="5.0">
+               <children>
+                  <Label minWidth="-Infinity" styleClass="username" text="siddheshrane" textFill="WHITE">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="3.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label graphicTextGap="6.0" minWidth="-Infinity" styleClass="online" text="online">
+                     <graphic>
+                        <Circle cache="true" cacheHint="QUALITY" radius="5.0" strokeType="INSIDE" strokeWidth="0.0">
+                           <fill>
+                              <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="#17f525" offset="0.007407407407407408" />
+                                    <Stop color="#149418" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Circle>
+                     </graphic>
+                     <font>
+                        <Font name="Liberation Sans" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <effect>
+            <DropShadow height="54.39" radius="18.3475" />
+         </effect>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="79.0" prefWidth="385.0" spacing="10.0" style="-banner-bg: yellow;" styleClass="banner">
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+         <children>
+            <VBox alignment="CENTER_LEFT">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="heading" text="Conversations" />
+               </children>
+            </VBox>
+            <StackPane alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="drawerArrow4" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="drawer-arrow" text="﹀" visible="false">
+                     <font>
+                        <Font name="Noto Sans" size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="69.0" fitWidth="69.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/profile-thumb.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <VBox alignment="CENTER" spacing="5.0">
+               <children>
+                  <Label minWidth="-Infinity" styleClass="username" text="siddheshrane" textFill="WHITE">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="3.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label graphicTextGap="6.0" minWidth="-Infinity" styleClass="online" text="online">
+                     <graphic>
+                        <Circle cache="true" cacheHint="QUALITY" radius="5.0" strokeType="INSIDE" strokeWidth="0.0">
+                           <fill>
+                              <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="#17f525" offset="0.007407407407407408" />
+                                    <Stop color="#149418" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Circle>
+                     </graphic>
+                     <font>
+                        <Font name="Liberation Sans" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <effect>
+            <DropShadow height="54.39" radius="18.3475" />
+         </effect>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="79.0" prefWidth="385.0" spacing="10.0" style="-banner-bg: #888;" styleClass="banner">
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+         <children>
+            <VBox alignment="CENTER_LEFT">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="heading" text="Conversations" />
+               </children>
+            </VBox>
+            <StackPane alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="drawerArrow5" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="drawer-arrow" text="﹀" visible="false">
+                     <font>
+                        <Font name="Noto Sans" size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="69.0" fitWidth="69.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/profile-thumb.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <VBox alignment="CENTER" spacing="5.0">
+               <children>
+                  <Label minWidth="-Infinity" styleClass="username" text="siddheshrane" textFill="WHITE">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="3.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label graphicTextGap="6.0" minWidth="-Infinity" styleClass="online" text="online">
+                     <graphic>
+                        <Circle cache="true" cacheHint="QUALITY" radius="5.0" strokeType="INSIDE" strokeWidth="0.0">
+                           <fill>
+                              <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="#17f525" offset="0.007407407407407408" />
+                                    <Stop color="#149418" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Circle>
+                     </graphic>
+                     <font>
+                        <Font name="Liberation Sans" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <effect>
+            <DropShadow height="54.39" radius="18.3475" />
+         </effect>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="79.0" prefWidth="385.0" spacing="10.0" style="-banner-bg: orangered;" styleClass="banner">
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+         <children>
+            <VBox alignment="CENTER_LEFT">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="heading" text="Conversations" />
+               </children>
+            </VBox>
+            <StackPane alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="drawerArrow6" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="drawer-arrow" text="﹀" visible="false">
+                     <font>
+                        <Font name="Noto Sans" size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="69.0" fitWidth="69.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/profile-thumb.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <VBox alignment="CENTER" spacing="5.0">
+               <children>
+                  <Label minWidth="-Infinity" styleClass="username" text="siddheshrane" textFill="WHITE">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="3.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label graphicTextGap="6.0" minWidth="-Infinity" styleClass="online" text="online">
+                     <graphic>
+                        <Circle cache="true" cacheHint="QUALITY" radius="5.0" strokeType="INSIDE" strokeWidth="0.0">
+                           <fill>
+                              <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="#17f525" offset="0.007407407407407408" />
+                                    <Stop color="#149418" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Circle>
+                     </graphic>
+                     <font>
+                        <Font name="Liberation Sans" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <effect>
+            <DropShadow height="54.39" radius="18.3475" />
+         </effect>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="79.0" prefWidth="385.0" spacing="10.0" style="-banner-bg: #666;" styleClass="banner">
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+         <children>
+            <VBox alignment="CENTER_LEFT">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="heading" text="Conversations" />
+               </children>
+            </VBox>
+            <StackPane alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="drawerArrow7" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="drawer-arrow" text="﹀" visible="false">
+                     <font>
+                        <Font name="Noto Sans" size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="69.0" fitWidth="69.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/profile-thumb.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <VBox alignment="CENTER" spacing="5.0">
+               <children>
+                  <Label minWidth="-Infinity" styleClass="username" text="siddheshrane" textFill="WHITE">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="3.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label graphicTextGap="6.0" minWidth="-Infinity" styleClass="online" text="online">
+                     <graphic>
+                        <Circle cache="true" cacheHint="QUALITY" radius="5.0" strokeType="INSIDE" strokeWidth="0.0">
+                           <fill>
+                              <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="#17f525" offset="0.007407407407407408" />
+                                    <Stop color="#149418" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Circle>
+                     </graphic>
+                     <font>
+                        <Font name="Liberation Sans" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <effect>
+            <DropShadow height="54.39" radius="18.3475" />
+         </effect>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="79.0" prefWidth="385.0" spacing="10.0" style="-banner-bg: #050;" styleClass="banner">
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+         <children>
+            <VBox alignment="CENTER_LEFT">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="heading" text="Conversations" />
+               </children>
+            </VBox>
+            <StackPane alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="drawerArrow8" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="drawer-arrow" text="﹀" visible="false">
+                     <font>
+                        <Font name="Noto Sans" size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="69.0" fitWidth="69.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/profile-thumb.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <VBox alignment="CENTER" spacing="5.0">
+               <children>
+                  <Label minWidth="-Infinity" styleClass="username" text="siddheshrane" textFill="WHITE">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="3.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label graphicTextGap="6.0" minWidth="-Infinity" styleClass="online" text="online">
+                     <graphic>
+                        <Circle cache="true" cacheHint="QUALITY" radius="5.0" strokeType="INSIDE" strokeWidth="0.0">
+                           <fill>
+                              <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="#17f525" offset="0.007407407407407408" />
+                                    <Stop color="#149418" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Circle>
+                     </graphic>
+                     <font>
+                        <Font name="Liberation Sans" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <effect>
+            <DropShadow height="54.39" radius="18.3475" />
+         </effect>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="79.0" prefWidth="385.0" spacing="10.0" style="-banner-bg: #444;" styleClass="banner">
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+         <children>
+            <VBox alignment="CENTER_LEFT">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="heading" text="Conversations" />
+               </children>
+            </VBox>
+            <StackPane alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="drawerArrow9" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="drawer-arrow" text="﹀" visible="false">
+                     <font>
+                        <Font name="Noto Sans" size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="69.0" fitWidth="69.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/profile-thumb.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <VBox alignment="CENTER" spacing="5.0">
+               <children>
+                  <Label minWidth="-Infinity" styleClass="username" text="siddheshrane" textFill="WHITE">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="3.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label graphicTextGap="6.0" minWidth="-Infinity" styleClass="online" text="online">
+                     <graphic>
+                        <Circle cache="true" cacheHint="QUALITY" radius="5.0" strokeType="INSIDE" strokeWidth="0.0">
+                           <fill>
+                              <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="#17f525" offset="0.007407407407407408" />
+                                    <Stop color="#149418" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Circle>
+                     </graphic>
+                     <font>
+                        <Font name="Liberation Sans" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <effect>
+            <DropShadow height="54.39" radius="18.3475" />
+         </effect>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="79.0" prefWidth="385.0" spacing="10.0" style="-banner-bg: #005;" styleClass="banner">
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+         <children>
+            <VBox alignment="CENTER_LEFT">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="heading" text="Conversations" />
+               </children>
+            </VBox>
+            <StackPane alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="drawerArrow10" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="drawer-arrow" text="﹀" visible="false">
+                     <font>
+                        <Font name="Noto Sans" size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="69.0" fitWidth="69.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/profile-thumb.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <VBox alignment="CENTER" spacing="5.0">
+               <children>
+                  <Label minWidth="-Infinity" styleClass="username" text="siddheshrane" textFill="WHITE">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="3.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label graphicTextGap="6.0" minWidth="-Infinity" styleClass="online" text="online">
+                     <graphic>
+                        <Circle cache="true" cacheHint="QUALITY" radius="5.0" strokeType="INSIDE" strokeWidth="0.0">
+                           <fill>
+                              <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="#17f525" offset="0.007407407407407408" />
+                                    <Stop color="#149418" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Circle>
+                     </graphic>
+                     <font>
+                        <Font name="Liberation Sans" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <effect>
+            <DropShadow height="54.39" radius="18.3475" />
+         </effect>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="79.0" prefWidth="385.0" spacing="10.0" style="-banner-bg: #222;" styleClass="banner">
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+         <children>
+            <VBox alignment="CENTER_LEFT">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="heading" text="Conversations" />
+               </children>
+            </VBox>
+            <StackPane alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="drawerArrow11" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="drawer-arrow" text="﹀" visible="false">
+                     <font>
+                        <Font name="Noto Sans" size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="69.0" fitWidth="69.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/profile-thumb.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <VBox alignment="CENTER" spacing="5.0">
+               <children>
+                  <Label minWidth="-Infinity" styleClass="username" text="siddheshrane" textFill="WHITE">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="3.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label graphicTextGap="6.0" minWidth="-Infinity" styleClass="online" text="online">
+                     <graphic>
+                        <Circle cache="true" cacheHint="QUALITY" radius="5.0" strokeType="INSIDE" strokeWidth="0.0">
+                           <fill>
+                              <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="#17f525" offset="0.007407407407407408" />
+                                    <Stop color="#149418" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Circle>
+                     </graphic>
+                     <font>
+                        <Font name="Liberation Sans" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <effect>
+            <DropShadow height="54.39" radius="18.3475" />
+         </effect>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="79.0" prefWidth="385.0" spacing="10.0" style="-banner-bg: maroon;" styleClass="banner">
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+         <children>
+            <VBox alignment="CENTER_LEFT">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="heading" text="Conversations" />
+               </children>
+            </VBox>
+            <StackPane alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="drawerArrow12" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="drawer-arrow" text="﹀" visible="false">
+                     <font>
+                        <Font name="Noto Sans" size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="69.0" fitWidth="69.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/profile-thumb.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <VBox alignment="CENTER" spacing="5.0">
+               <children>
+                  <Label minWidth="-Infinity" styleClass="username" text="siddheshrane" textFill="WHITE">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="3.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label graphicTextGap="6.0" minWidth="-Infinity" styleClass="online" text="online">
+                     <graphic>
+                        <Circle cache="true" cacheHint="QUALITY" radius="5.0" strokeType="INSIDE" strokeWidth="0.0">
+                           <fill>
+                              <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="#17f525" offset="0.007407407407407408" />
+                                    <Stop color="#149418" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Circle>
+                     </graphic>
+                     <font>
+                        <Font name="Liberation Sans" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <effect>
+            <DropShadow height="54.39" radius="18.3475" />
+         </effect>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="79.0" prefWidth="385.0" spacing="10.0" style="-banner-bg: #000;" styleClass="banner">
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+         <children>
+            <VBox alignment="CENTER_LEFT">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="heading" text="Conversations" />
+               </children>
+            </VBox>
+            <StackPane alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="drawerArrow13" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="drawer-arrow" text="﹀" visible="false">
+                     <font>
+                        <Font name="Noto Sans" size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="69.0" fitWidth="69.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/profile-thumb.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <VBox alignment="CENTER" spacing="5.0">
+               <children>
+                  <Label minWidth="-Infinity" styleClass="username" text="siddheshrane" textFill="WHITE">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="3.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label graphicTextGap="6.0" minWidth="-Infinity" styleClass="online" text="online">
+                     <graphic>
+                        <Circle cache="true" cacheHint="QUALITY" radius="5.0" strokeType="INSIDE" strokeWidth="0.0">
+                           <fill>
+                              <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="#17f525" offset="0.007407407407407408" />
+                                    <Stop color="#149418" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Circle>
+                     </graphic>
+                     <font>
+                        <Font name="Liberation Sans" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <effect>
+            <DropShadow height="54.39" radius="18.3475" />
+         </effect>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</FlowPane>

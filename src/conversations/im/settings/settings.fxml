@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import java.net.URL?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.60" fx:controller="conversations.im.settings.SettingsController">
+    <stylesheets>
+        <URL value="@settings.css" />
+    </stylesheets>
+   <children>
+      <ComboBox layoutX="14.0" layoutY="28.0" promptText="Choose a theme" />
+      <JFXComboBox fx:id="themeChooser" focusColor="#2466c9" layoutX="220.0" layoutY="28.0" promptText="Theme" unFocusColor="#1d244a" />
+   </children>
+</AnchorPane>

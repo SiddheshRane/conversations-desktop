@@ -1,0 +1,38 @@
+/* 
+    Created on : 16 Mar, 2017, 7:34:12 PM
+    Author     : Siddhesh Rane 
+*/
+@import "chat/ChatCell.css";
+@import "banner/banner.css";
+
+.root {
+    /*Override banner.css*/
+    -banner-bg: #2c2c2c;
+    /*Override ChartCell.css*/
+    -cell-bg: #322d2daa;
+}
+
+/*Override ChatCell.css*/
+.chat-list {
+    /*-fx-background-color: linear-gradient(to bottom right, springgreen, yellowgreen, orchid);*/
+    /*-fx-background-color: linear-gradient(to bottom, #14ec89, #22a368);*/
+    /*-fx-background-color: darkgrey;*/
+    -fx-background-image: url(images/bgimage.png);
+}
+.cell-graphic {
+    -fx-padding: 5px;
+}
+.cell-graphic VBox {
+    -fx-background-radius: 0 9 0 9;
+}
+.cell-graphic .text-flow {
+    -fx-background-radius: 0 0 0 9;
+}
+
+.send-box .jfx-text-field{
+    -jfx-focus-color: white;
+}
+
+.chats {
+    /*-fx-background-color: #22a368;*/
+}
